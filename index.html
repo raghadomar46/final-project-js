@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+   <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="style.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+      
+  
+    </head>
+
+    
+   
+   
+ 
+
+  <body>
+ <header id="mainHeader">
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand-img" href="index.html">
+        <img src="./assets/img/header/logo (1).png" alt="Logo">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" style="color: #dfb5aa;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Home
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" style="color: #dfb5aa;" href="slider.html">Slider</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="parallaximg.html">Parallax img</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a href="about.html" class="nav-link" style="color:#556a89; text-decoration:none;">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="services.html" class="nav-link" style="color:#556a89; text-decoration:none;">Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" style="color:#556a89;" href="#">Pricing</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" style="color:#556a89;" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Eye Makeup</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Face Makeup</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Hair Makeup</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color:#556a89;">Blog</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color:#556a89;">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+
+
+  <div class="swiper">
+  <div class="swiper-wrapper">
+    <!-- الشريحة الأولى -->
+    <div class="swiper-slide slide1"><div class="container d-flex justify-content-center align-items-center my-5">
+  <div class="position-relative">
+
+   
+    <img src="./assets/img/header/slider02.jpg" class="img-fluid" alt="Image"
+         style="z-index: 1; position: relative; max-width: 100%; height: auto;margin-right: 50px;">
+
+    <!-- ✅ النص فوق جزء من الصورة باستخدام z-index -->
+    <div class="position-absolute top-50 start-100 translate-middle-y text-start p-4"
+         style="z-index: 2;width: 300px; margin-left: -150px;">
+      <h2 class="fw-bold" style="color:#556a89;font-family: 'Cormorant Garamond', serif;font-weight: 600">Yvonne Scott</h2>
+      <p class="text-uppercase small" style="letter-spacing: 2px; color: #edd5cf; font-family: 'Outfit', sans-serif;letter-spacing: 5px;word-spacing: 7px;">Makeup Artist</p>
+      <p class="intro ">
+        Hello, I’m Yvonne Scott! I love people love to feel beautiful, which is the reason I’ve spent the last 14 years engulfed in doing Make up.
+      </p>
+      <a href="#" class ="pink-button" id="aboutBtn">About Me!</a>
+    </div>
+
+  </div>
+</div></div>
+
+    <!-- الشريحة الثانية -->
+    <div class="swiper-slide slide2"><div class="container d-flex justify-content-center align-items-center my-5">
+  <div class="position-relative">
+
+   
+    <img src="./assets/img/header/slider3.jpg" class="img-fluid" alt="Image"
+         style="z-index: 1; position: relative; max-width: 100%; height: auto;margin-right: 50px;">
+
+    <!-- ✅ النص فوق جزء من الصورة باستخدام z-index -->
+    <div class="position-absolute top-50 start-100 translate-middle-y text-start p-4"
+         style="z-index: 2;width: 300px; margin-left: -150px;">
+      <h2 class="fw-bold" style="color:#556a89;font-family: 'Cormorant Garamond', serif;font-weight: 600">Yvonne Scott</h2>
+      <p class="text-uppercase small" style="letter-spacing: 2px; color: #edd5cf; font-family: 'Outfit', sans-serif;letter-spacing: 5px;word-spacing: 7px;">Makeup Artist</p>
+      <p class="intro ">
+       Stylish and hair, I believe if you feel comfortable in your skin, then you can spend your energy loving others and enjoying life instead of worrying and being self-conscious.
+      </p>
+      <a href="#" class ="pink-button">My Services</a>
+    </div>
+
+  </div>
+</div></div></div>
+  </div>
+
+  <!-- أزرار التنقل -->
+  <div class="swiper-button-next" ></div>
+  <div class="swiper-button-prev"></div>
+</div>
+     
+  
+    
+  <h1 class="my-title">Services</h1>
+   
+   <div class="container2 ">
+  <p class="myp">
+    Makeup services suspendisse euismod eu justo eget cursus.<br>
+    Services lorem variustions metus. Nam rhoncus euismo.
+  </p>
+
+</div>
+<div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+  <!-- الصور -->
+  <div class="carousel-inner">
+  
+
+<div class="carousel-item active">
+  <div class="d-flex justify-content-center gap-5">
+    
+    <div class="image-zoom">
+      <img src="./assets/img/services/eye.jpg" class="img-fluid" alt="Eye Makeup">
+      <h3 class="makeup">Eye Makeup</h3>
+    </div>
+
+    <div class="image-zoom">
+      <img src="./assets/img/services/face.jpg" class="img-fluid" alt="Face Makeup">
+      <h3 class="makeup">Face Makeup</h3>
+    </div>
+
+  </div>
+</div>
+
+    <div class="carousel-item">
+     <div class="d-flex justify-content-center gap-5">
+    
+    <div class="image-zoom">
+      <img src="./assets/img/services/hair.jpg" class="img-fluid" alt="Eye Makeup">
+      <h3 class="makeup">Hair Makeup</h3>
+    </div>
+
+    <div class="image-zoom">
+      <img src="./assets/img/services/wedding.jpg" class="img-fluid" alt="Face Makeup">
+      <h3 class="makeup">Wedding Makeup</h3>
+    </div>
+
+  </div>
+</div>
+    <div class="carousel-item">
+       <div class="d-flex justify-content-center gap-5">
+    
+    <div class="image-zoom">
+      <img src="./assets/img/services/effect.jpg" class="img-fluid" alt="Eye Makeup">
+      <h3 class="makeup">Effect Makeup</h3>
+    </div>
+
+    <div class="image-zoom">
+      <img src="./assets/img/services/children face.jpg" class="img-fluid" alt="Face Makeup">
+      <h3 class="makeup">Children Face Makeup</h3>
+    </div>
+
+  </div>
+</div>
+  </div>
+
+  <!-- النقاط (Pagination) -->
+ <div class="carousel-indicators">
+    <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="2"></button>
+  </div>
+</div>
+  <!-- النقاط (Pagination) -->
+ <div class="carousel-indicators">
+    <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="2"></button>
+  </div>
+</div>
+<div class ="photo ">
+<div class="container mt-4">
+  <div class="row text-center g-5">
+    <div class="col-6 col-md-4 col-lg-2">
+      <a href="#">
+        <img src="assets/img/footer/ph1.png" class="img-fluid" alt="Link 1">
+      </a>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2">
+      <a href="#">
+        <img src="./assets/img/footer/ph2.png" class="img-fluid " alt="Link 2">
+      </a>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2">
+      <a href="#">
+        <img src="./assets/img/footer/ph3.png" class="img-fluid" alt="Link 3">
+      </a>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2">
+      <a href="#">
+        <img src="./assets/img/footer/ph4.png"class="img-fluid" alt="Link 4">
+      </a>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2">
+      <a href="#" >
+        <img src="./assets/img/footer/ph5.png" class="img-fluid" alt="Link 5">
+      </a>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2">
+      <a href="#">
+        <img src="./assets/img/footer/ph6.png" class="img-fluid" alt="Link 6">
+      </a>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<!-- Footer -->
+ <div class="footer">
+  <div class="container">
+    <div class="row ">
+      <!-- العمود الأول -->
+      <div class="col -md -4 mb-4 ">
+        <h3 >Yvonne Scott</h3>
+        <h6 >Makeup Artist</h6>
+        <p >707 West Ave, CT 07750</p>
+        <p>Connecticut — Norwalk</p>
+      </div>
+
+      <!-- العمود الثاني -->
+      <div class="col-md-4 mb-4">
+        <h3 >Contact</h3>
+        <p >E-mail Address</p>
+        <p >reservation@yvonnescott.com</p>
+        <p>makeup@yvonnescott.com</p>
+      </div>
+
+      <!-- العمود الثالث -->
+      <div class="col-md-4 mb-4">
+        <h3 >+1 650-333-0000</h3>
+        <p >Working Hours</p>
+        <p >Mon–Fri: 08.00 - 19.00</p>
+        <p>Sunday: Closed</p>
+      </div>
+    </div>
+  </div>
+    <!-- السطر السفلي -->
+    
+    <div class="text-center mt-3 border-top pt-3">
+      <p class="mb-1 small text-start fs-5" style="margin-left: 350px;position: relative; top: 25px;">© 2025. All right reserved. Terms & Conditions</p>
+      <div class="text-end "  style="padding-right: 500px; position: relative; top: -5px;">
+        <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-white me-2"><i class="fab fa-pinterest"></i></a>
+      </div>
+    </div>
+  
+</footer>
+ 
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+      <script src="./assets/js/main.js"></script>
+  </body>
+</html>
+ 
